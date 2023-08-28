@@ -1,0 +1,63 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para la documentación de planificación */
+.sprint-planning-document {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.sprint-planning-document h2 {
+  color: #333;
+}
+
+.sprint-planning-document h3 {
+  color: #666;
+  margin-top: 10px;
+}
+
+.sprint-planning-document ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+/* Estilos para el backlog y las fichas */
+.product-backlog,
+.backlog-fichas {
+  margin-bottom: 20px;
+}
+
+.product-backlog h3,
+.backlog-fichas h3 {
+  color: #333;
+}
+
+.product-backlog ul,
+.backlog-fichas ul {
+  margin-left: 20px;
+  list-style-type: square;
+}
+
+/* Estilos para la calendarización */
+.sprint-calendar {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.sprint-calendar h3 {
+  color: #333;
+}
